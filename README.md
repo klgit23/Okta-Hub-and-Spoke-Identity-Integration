@@ -7,7 +7,7 @@
 
 ### Steps
 * At the spoke, set up Org2Org
-
+<img src="org2org.png" width="40%">
 
  
 * At the hub, set up IdP
