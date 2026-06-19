@@ -6,11 +6,36 @@
 + Designed attribute mapping to align profile schemas between tenants to facilitate automated lifecycle management cross Org2Org integration
 
 ### Steps
-* At the spoke, set up Org2Org
-<img src="org2org.png" width="40%">
+* ✅ At the spoke, set up Org2Org, and choose SAML
 
- 
-* At the hub, set up IdP
-*      
-* Install Git
-* Start sonarqube server run in docker container: `docker run -d --name sonar-server -p 9000:9000 sonarqube:lts-community`; correpondingly, open port 9000 in security group
+<img src="org2org.png" width="80%">
+
+<img src="org2org saml instructions.png" width="80%">
+
+<img src="org2org saml signon.png" width="80%">
+
+
+* ✅ At the spoke, enable provisioning
+
+<img src="org2org saml provision.png" width="80%">
+
+
+* ✅ At the spoke, assign Org2Org
+
+<img src="org2org app assignment.png" width="80%">
+
+
+* ✅ At the hub, set up IdP and enable linking
+
+<img src="org2org idp setting.png" width="80%">
+
+
+* ✅ At the spoke, map attributes
+
+<img src="org2org attribute mapping.png" width="80%">
+
+
+* ✅ Push groups from spoke to hub
+
+<img src="org2org push group.png" width="80%">
+<img src="org2org push group2.png" width="80%">
